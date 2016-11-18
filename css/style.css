@@ -1,20 +1,20 @@
 /* --- NAVBAR --- */
 
 .navbar {
-    background-color: #50952e;
+    background-color: #4c9d24;
 }
 
 .nav-link {
     color: #fff;
-    padding: 0 0.75em;
-    font-family: 'Roboto', sans-serif;
+    padding: 0 0.5em;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
 }
 
 .logo {
     display: block;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: normal;
     font-size: 1.4em;
     color: #fff;
@@ -47,6 +47,9 @@
 
 body {
     padding-top: 3.5em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 .container {
@@ -56,7 +59,7 @@ body {
 
 .home-banner {
     display: flex;
-    height: 750px; 
+    height: 550px; 
     align-items: center;
     color: #fff;
 }
@@ -65,7 +68,110 @@ body {
     background-color: #275211;   
 }
 
+.green-box {
+    height: 20em;
+    border: 20px solid #70b50e;  
+    background-color: #70b50e;
+    padding: 0;
+}
+
+.green-box-border {
+    display: flex;
+    border: 2px dashed #fff; 
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-box-border h3 {
+    color: #fff;
+    padding: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.services {
+    height: auto;
+    padding-top: 3.5em;
+    background-color: aliceblue;
+}
+
+.media {
+    padding: 1em;   
+}
+
+/* --- BUTTONS --- */
+
+.contact-button {
+    display: flex;
+    background-color: #70b50e;
+    border: none;
+    margin-top: 2em;
+    height: 58px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: background 0.5s;
+}
+
+.contact-button:hover {
+    background-color: #4c9d24;
+    transition: background 0.5s;
+}
+
+.mail-icon {
+    font-size: 1.2em;
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+    border-right: 1px solid #fff;
+}
+
+.service-icon {
+    padding: 0.75em;
+    width: 5em;
+}
+
+
+
+/* --- TYPOGRAPHY --- */
+
+body {
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h3 {    
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal; 
+}
+
+h4 {    
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal; 
+}
+
+h5 {    
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal; 
+}
+
+
+
+
+
 /* --- MEDIA QUERIES --- */
+
+
+/* --- Medium --- */
 
 @media (min-width: 768px) {
     .logo {
@@ -73,8 +179,41 @@ body {
         height: 1.85em;
         width: auto;
     }
-
-
     
+    .green-box {
+        height: 32em;
+    }
+    
+    .services {
+        height: 32em;
+    }
+    
+    .container-services {
+        display: flex;
+        align-items: center;
+        height: 480px;
+        background-color: aliceblue;
+    }
+    
+
+}
+
+/* --- Large --- */
+
+@media (min-width: 992px) {
+    .services {
+        height: 360px;
+    }
+    
+    .green-box {
+        height: 360px
+    }
+
+}
+
+/* --- Extra large --- */
+
+@media (min-width: 1200px) {
+
 }
 

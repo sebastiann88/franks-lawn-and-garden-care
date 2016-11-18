@@ -101,6 +101,41 @@ body {
     padding: 1em;   
 }
 
+/* --- ABOUT --- */
+
+.container-about {
+    background-color: #70b50e;
+    color: #fff;
+}
+
+.about-info {
+    padding: 2em;
+}
+
+.frank-img {
+    padding: 0;
+    margin-bottom: 3em;
+    width: 100%;
+}
+
+.selling-points {
+    padding: 0;
+    margin: 0;
+}
+
+.selling-points > i {
+    padding-right: 0.75em;   
+}
+
+h3.bold {
+    margin-bottom: 0.75em;   
+}
+
+h3.bold + p {
+    margin-bottom: 3em;   
+}
+
+
 /* --- BUTTONS --- */
 
 .contact-button {
@@ -164,11 +199,18 @@ h5 {
     font-weight: normal; 
 }
 
-
-
+.bold {
+    font-weight: bold;
+}
 
 
 /* --- MEDIA QUERIES --- */
+
+@media (min-width: 576px) {
+    .frank-img {
+        margin-bottom: 0;   
+    }
+}
 
 
 /* --- Medium --- */
@@ -208,12 +250,17 @@ h5 {
     .green-box {
         height: 360px
     }
-
+    
+    .container-about {
+        margin-top: 0;
+    }
 }
 
 /* --- Extra large --- */
 
 @media (min-width: 1200px) {
-
+    .frank-about {
+        padding-top: 2.5em;   
+    }
 }
 

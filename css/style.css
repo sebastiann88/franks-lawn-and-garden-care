@@ -135,6 +135,73 @@ h3.bold + p {
     margin-bottom: 3em;   
 }
 
+/* --- PROJECTS --- */
+
+section.container-projects {
+    height: 1185px;
+    background-color: aliceblue;
+}
+
+section.container-projects div.container {
+    padding-top: 3em;
+    text-align: center;
+}
+
+h2.projects-title {
+    padding-top: 0.5em;
+    font-weight: bold;
+    color: #70b50e;
+}
+
+h2.projects-title + p {
+    width: 30em;
+    margin: 1em auto 0 auto;
+    padding-bottom: 1.5em;
+}
+
+h2.projects-title + p + div {
+    width: 15em;
+    margin: 0 auto;
+    border-bottom: 3px solid #70b50e;
+}
+
+img[src="img/leaf.png"] {
+    width: 2em;   
+}
+
+ul.projects {
+    display: flex;
+    width: 45em;
+    margin: 3em auto 0 auto;
+    border: none;   
+}
+
+div.projects-media {
+    margin: 2em;   
+}
+
+ul.projects > li {
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.project-item img {
+    width: 100%;   
+}
+
+div.project-item h5 {
+    font-weight: bold;
+    color: #70b50e;
+    margin: 1em auto 0 0;
+    text-align: left;
+}
+
+div.project-item small {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
 
 /* --- BUTTONS --- */
 
@@ -184,17 +251,7 @@ body {
     font-size: 50px;
 }
 
-h3 {    
-    font-family: 'Roboto Slab', serif;
-    font-weight: normal; 
-}
-
-h4 {    
-    font-family: 'Roboto Slab', serif;
-    font-weight: normal; 
-}
-
-h5 {    
+h2, h3, h4 {    
     font-family: 'Roboto Slab', serif;
     font-weight: normal; 
 }

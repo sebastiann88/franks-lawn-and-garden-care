@@ -139,6 +139,7 @@ h3.bold + p {
 
 section.container-projects {
     height: auto;
+    padding-bottom: 1.5em;
     background-color: aliceblue;
 }
 
@@ -223,6 +224,52 @@ div.project-item small {
 .hover-plus:hover {
     opacity: 1;
     transition: all 0.5s;
+}
+
+/* --- CONTACT US --- */
+
+section.contact-prompt {
+    display: flex;
+    align-items: center;
+    height: 162px;
+    background-color: #37382a;
+}
+
+section.contact-prompt .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+img.contact-leaves {
+    position: absolute;
+    top: -5em;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    max-width: 12em;
+}
+
+h4.need-help {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    width: 18em;
+}
+
+h4.need-help + a {
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+}
+
+h4.need-help span {
+    color: #70b50e;
+    margin-right: 1em;
+}
+
+#white {
+    color: #fff;   
 }
 
 /* --- BUTTONS --- */
@@ -317,6 +364,10 @@ div.projects-media .unit {
         display: flex;
         width: 35em;   
     }
+    
+    h4.need-help {
+        flex-direction: row;
+    }
 }
 
 
@@ -348,7 +399,9 @@ div.projects-media .unit {
         width: 45em;   
     }
     
-
+    h4.need-help {
+        margin-left: 8em;   
+    }
     
 
 }
@@ -362,6 +415,10 @@ div.projects-media .unit {
     
     .green-box {
         height: 360px
+    }
+    
+    h4.need-help {
+        width: 28em;
     }
 }
 
@@ -394,6 +451,10 @@ div.projects-media .unit {
         margin: 0 auto 0em 7.5em;
         border-left: 3px solid #fff;
         z-index: 20;
+    }
+    
+    h4.need-help {
+        margin-left: 9.5em;
     }
 }
 

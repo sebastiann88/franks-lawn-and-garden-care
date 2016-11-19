@@ -177,7 +177,7 @@ ul.projects {
 }
 
 div.projects-media {
-    margin: 2em;   
+    margin: 2em 3em;   
 }
 
 ul.projects > li {
@@ -256,31 +256,6 @@ div.project-item small {
     padding: 0.75em;
     width: 5em;
 }
-
-.plus-vertical {
-    display: block;
-    position: absolute;
-    left: 6.2em;
-    width: 10px;
-    color: #fff;
-    padding: 3.3em 1.3em;
-    margin: 0 auto;
-    border-bottom: 3px solid #fff;
-    z-index: 20;
-}
-
-.plus-horizontal {
-    display: block;
-    position: absolute;
-    top: 5.4em;
-    width: 10px;
-    color: #fff;
-    padding: 1.3em 4em;
-    margin: 0 auto 0em 7.5em;
-    border-left: 3px solid #fff;
-    z-index: 20;
-}
-
 
 
 /* --- TYPOGRAPHY --- */
@@ -395,6 +370,30 @@ div.projects-media .unit {
 @media (min-width: 1200px) {
     .frank-about {
         padding-top: 2.5em;   
+    }
+    
+    .plus-vertical {
+        display: block;
+        position: absolute;
+        left: 6.2em;
+        width: 10px;
+        color: #fff;
+        padding: 3.3em 1.3em;
+        margin: 0 auto;
+        border-bottom: 3px solid #fff;
+        z-index: 20;
+    }
+
+    .plus-horizontal {
+        display: block;
+        position: absolute;
+        top: 5.4em;
+        width: 10px;
+        color: #fff;
+        padding: 1.3em 4em;
+        margin: 0 auto 0em 7.5em;
+        border-left: 3px solid #fff;
+        z-index: 20;
     }
 }
 

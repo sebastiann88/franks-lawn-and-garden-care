@@ -353,6 +353,54 @@ p.card-p:hover {
     text-decoration: underline;   
 }
 
+/* --- CLIENTS --- */
+
+section.container-clients {
+    height: auto;
+    padding-bottom: 1em;
+    background-color: aliceblue;
+}
+
+section.container-clients div.media {
+    margin: 0 auto;
+    padding: 1.75em;
+}
+
+section.container-clients div.media img {
+    margin-right: 0.5em;
+}
+
+section.container-clients div.container {
+    text-align: center;
+}
+
+div.clients-title {
+    margin-bottom: 2em;   
+}
+
+div.clients-content {
+    position: relative;
+    text-align: left;
+}
+
+div.clients-content > h4 {
+    color: #70b50e;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+div.clients-content > img {
+    position: absolute;
+    top: 0;
+    right: 0.75em;
+}
+
+div.clients-content > p {
+    margin-top: 0.5em;   
+}
+
+
+
 /* --- BUTTONS --- */
 
 .contact-button {

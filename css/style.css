@@ -292,35 +292,65 @@ h4.need-help span {
 
 /* --- FAQ --- */
 
-.faq {
-    height: 732px;
+section.faq {
+    height: auto;
     background-color: aliceblue;
 }
 
-.faq-grid {
+div.faq-grid {
     width: 100%;
-    margin: 0 auto;   
+    margin: 0 auto;
+    padding: 3em 0;
 }
 
-.faq-img {
+div.faq-img {
     margin: 1em auto;
     flex-direction: column;
 }
 
-.faq-content {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+div.faq-content {
+    display: block;
+    margin: 1.5em auto;
 }
 
-.faq h3 {
+section.faq h3 {
     color: #70b50e;
     font-weight: bold;
 }
 
-.faq-border {
+div.faq-border {
     border-bottom: 4px solid #70b50e;
     width: 3em;
+}
+
+div.myAcc {
+     margin-top: 1em;
+}
+
+div.card-header {
+    background-color: #70b50e;
+}
+
+div.card-header > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+div.card-header > a:hover {
+    text-decoration: none;   
+}
+
+div.card-header > i {
+    color: #fff;
+}
+
+p.card-p {
+    display: inline;
+    margin-left: 0.5em;   
+}
+
+p.card-p:hover {
+    text-decoration: underline;   
 }
 
 /* --- BUTTONS --- */

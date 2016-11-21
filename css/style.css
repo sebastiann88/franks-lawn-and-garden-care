@@ -551,6 +551,10 @@ div.projects-media .unit {
     h4.need-help {
         width: 28em;
     }
+    
+    .lg-visible {
+        display: block!important;   
+    }
 }
 
 /* --- Extra large --- */

@@ -399,6 +399,13 @@ div.clients-content > p {
     margin-top: 0.5em;   
 }
 
+/* --- GET A QUOTE --- */
+
+section.quote {
+    height: 672px;
+    background-color: #70b50e;
+}
+
 
 
 /* --- BUTTONS --- */

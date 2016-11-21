@@ -210,7 +210,9 @@ div.project-item small {
 }
 
 .hover-plus {
+    display: flex;
     position: absolute;
+    justify-content: center;
     top: 0;
     left: 0;
     background: #70b50e;
@@ -224,6 +226,22 @@ div.project-item small {
 .hover-plus:hover {
     opacity: 1;
     transition: all 0.5s;
+    text-decoration: none;
+}
+
+.hover-plus:hover > i {
+    font-size: 1.5em;
+    transition: all 150ms ease;
+}
+
+.hover-plus > i {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 3em;
+    transition: all 150ms ease;
 }
 
 /* --- CONTACT US --- */
@@ -270,6 +288,39 @@ h4.need-help span {
 
 #white {
     color: #fff;   
+}
+
+/* --- FAQ --- */
+
+.faq {
+    height: 732px;
+    background-color: aliceblue;
+}
+
+.faq-grid {
+    width: 100%;
+    margin: 0 auto;   
+}
+
+.faq-img {
+    margin: 1em auto;
+    flex-direction: column;
+}
+
+.faq-content {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.faq h3 {
+    color: #70b50e;
+    font-weight: bold;
+}
+
+.faq-border {
+    border-bottom: 4px solid #70b50e;
+    width: 3em;
 }
 
 /* --- BUTTONS --- */
@@ -403,7 +454,9 @@ div.projects-media .unit {
         margin-left: 8em;   
     }
     
-
+    .faq-grid {
+        display: flex;   
+    }
 }
 
 /* --- Large --- */
@@ -429,6 +482,7 @@ div.projects-media .unit {
         padding-top: 2.5em;   
     }
     
+    /*
     .plus-vertical {
         display: block;
         position: absolute;
@@ -451,7 +505,7 @@ div.projects-media .unit {
         margin: 0 auto 0em 7.5em;
         border-left: 3px solid #fff;
         z-index: 20;
-    }
+    } */
     
     h4.need-help {
         margin-left: 9.5em;

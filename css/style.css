@@ -402,10 +402,62 @@ div.clients-content > p {
 /* --- GET A QUOTE --- */
 
 section.quote {
-    height: 672px;
+    height: auto;
     background-color: #70b50e;
 }
 
+section.quote > .container {
+    display: block;
+    margin: 0 auto;
+    padding: 4em 3em;
+}
+
+section.quote h2 {
+    color: #fff;
+    font-weight: bold;
+}
+
+div.quote-border {
+    border-bottom: 4px solid #fff;
+    width: 3em;
+}
+
+section.quote p {
+    color: #fff;
+    width: 95%;
+}
+
+section.quote form {
+    margin-top: 3em;   
+}
+
+section.quote label {
+    color: aliceblue;
+}
+
+section.quote button {
+    margin: 0.5em 1em 0;
+    background-color: #4c9d24;
+    color: #fff;
+    border: 1px solid #70b50e;
+    height: 3em;
+    width: 12em;
+    transition: all 0.5s ease;
+}
+
+section.quote button:hover {
+    background-color: #4c9d24;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.5s ease;
+}
+
+/* --- FOOTER --- */
+
+footer {
+    background-color: #275211;
+    height: 200px;
+}
 
 
 /* --- BUTTONS --- */

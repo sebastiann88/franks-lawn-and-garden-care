@@ -197,10 +197,26 @@ div.projects-media {
     margin: 2em 3em;   
 }
 
-ul.projects > li {
+div.projects {
+    display: flex;
     justify-content: space-between;
     padding: 0.25em;
-    width: 100%;
+    margin: 2em 8em;
+}
+
+div.projects button {
+    background-color: aliceblue;   
+}
+
+.active-filter-btn {
+    color: #70b50e;
+    border: 1px solid #70b50e;
+}
+
+a:focus,
+button:focus {
+    outline-color: #70b50e!important;
+    outline-style: double!important;
 }
 
 div.img-overlay {

@@ -43,9 +43,25 @@
     color: #fff;
 }
 
+a.nav-link {
+    padding-bottom: 0.25em!important; 
+}
+
+a.active {
+    border-bottom: 1px solid #fff;
+}
+
+a.active:active,
+a.active:focus,
+a.active:hover,
+a.active:visited {
+    border: none!important;   
+}
+
 /* --- GENERAL --- */
 
 body {
+    position: relative;
     padding-top: 3.5em;
     box-sizing: border-box;
     -moz-box-sizing: border-box;

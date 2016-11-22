@@ -24,16 +24,16 @@
         <button class="navbar-toggler hidden-md-up float-xs-right" type="button" data-toggle="collapse" data-target="#myNav"></button>
         <div id="myNav" class="collapse navbar-toggleable-sm float-md-right">
              <ul class="nav navbar-nav">
-                 <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                 <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
                  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                  <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                 <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                 <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
                  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
              </ul>
          </div>
       </nav>
       
-    <section class="green-banner">
+    <section class="green-banner" id="home">
         <div class="container">
             <div class="row col-sm-12">
                 <div class="jumbotron-fluid home-banner">
@@ -48,7 +48,7 @@
         </div>
     </section>
     
-    <section class="container-services">
+    <section class="container-services" id="about">
         <div class="container">
             <div class="row">
                <div class="col-sm-12 col-md-3 col-xl-3 green-box">
@@ -139,7 +139,7 @@
         </div>
     </section>
     
-    <section class="container-projects">
+    <section class="container-projects" id="projects">
        <div class="container">
            <img src="img/leaf.png">
            <h2 class="projects-title">Awesome Projects</h2>
@@ -247,7 +247,7 @@
         </div>
     </section>
     
-    <section class="faq">
+    <section class="faq" id="clients">
         <div class="container">
            <div class="row faq-grid">
                 <div class="unit col-xs-12 col-md-5 faq-img">
@@ -349,7 +349,7 @@
         </div>        
     </section>
     
-    <section class="quote">
+    <section class="quote" id="contact">
         <div class="container">
             <h2>Get a Quote</h2>
             <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie 
@@ -415,5 +415,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

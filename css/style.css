@@ -186,22 +186,18 @@ img[src="img/leaf.png"] {
     width: 2em;   
 }
 
-ul.projects {
-    display: block;
-    width: auto;
-    margin: 3em auto 0 auto;
-    border: none;   
-}
-
 div.projects-media {
     margin: 2em 3em;   
 }
 
 div.projects {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    width: auto;
+    max-width: 40em;
+    justify-content: space-around;
+    margin: 2em auto 0 auto;
     padding: 0.25em;
-    margin: 2em 8em;
 }
 
 div.projects button {
@@ -224,8 +220,12 @@ div.img-overlay {
     position: relative;
 }
 
+div.projects-media .row {
+    margin: 0 auto;
+}
+
 div.project-item img {
-    width: 100%;   
+    width: 100%;
 }
 
 div.project-item h5 {
@@ -593,6 +593,10 @@ div.projects-media .unit {
     h4.need-help {
         flex-direction: row;
     }
+    
+    div.projects {
+        flex-direction: row;   
+    }
 }
 
 
@@ -630,6 +634,11 @@ div.projects-media .unit {
     
     .faq-grid {
         display: flex;   
+    }
+    
+    div.container-projects {
+        display: flex;
+        justify-content: center;
     }
 }
 

@@ -316,7 +316,7 @@ section.faq {
 div.faq-grid {
     width: 100%;
     margin: 0 auto;
-    padding: 3em 0;
+    padding: 3em 0 0;
 }
 
 div.faq-img {
@@ -375,6 +375,10 @@ section.container-clients {
     height: auto;
     padding-bottom: 1em;
     background-color: aliceblue;
+}
+
+section.container-clients > .container {
+    padding-top: 3em;   
 }
 
 section.container-clients div.media {

@@ -211,6 +211,7 @@ div.projects button {
 .active-filter-btn {
     color: #70b50e;
     border: 1px solid #70b50e;
+    border-radius: 1px;
 }
 
 a:focus,
